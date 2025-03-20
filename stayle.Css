@@ -1,0 +1,96 @@
+/* 🌍 Body: Umumiy sozlamalar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #f8f8f8;
+}
+
+/* 🚀 Navbar (navigatsiya paneli) */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* 📌 1-Sektsiya: Flexbox asosidagi bloklar */
+.flexbox-section {
+    margin: 50px 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.flex-item {
+    width: 100px;
+    height: 100px;
+    background: purple;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* 🎨 2-Sektsiya: 1200px kenglikdagi quti */
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background: blue;
+}
+
+.box-wrapper {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    background: yellow;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box span {
+    background: red;
+    padding: 10px;
+    color: white;
+}
+
+/* 🌍 Footer */
+footer {
+    margin-top: 50px;
+    padding: 10px;
+    background: #222;
+    color: white;
+}
